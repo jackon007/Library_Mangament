@@ -26,26 +26,29 @@ The project demonstrates full database interaction, console-based UI, and automa
 
 ## Library-Management-System
 project-root/
+├── .gitignore
 ├── README.md
 ├── build.gradle
 ├── settings.gradle
-├── .gitignore
 ├── sql.scripts/
 │   └── initdb.sql
-├── src/
-│   └── main/
-│       └── java/
-│           └── org.example/
-│               ├── modules/
-│               │   ├── Book.java
-│               │   ├── Copies.java
-│               │   ├── Genres.java
-│               │   ├── Library.java
-│               │   └── Users.java
-│               ├── repo/
-│               │   └── BookRepository.java
-│               └── Demo.java
-└── test/
+└── src/
+    ├── main/
+    │   ├── java/
+    │   │   └── org/
+    │   │       └── example/
+    │   │           ├── modules/
+    │   │           │   ├── Book.java
+    │   │           │   ├── Copies.java
+    │   │           │   ├── Genres.java
+    │   │           │   ├── Library.java
+    │   │           │   └── Users.java
+    │   │           ├── repo/
+    │   │           │   └── BookRepository.java
+    │   │           └── Demo.java
+    │   └── resources/
+    └── test/
+     
 
 ## Features
 - Manage **multiple libraries**, each storing physical copies of books.
