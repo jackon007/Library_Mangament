@@ -25,28 +25,27 @@ The project demonstrates full database interaction, console-based UI, and automa
 
 
 ## Library-Management-System
-│
+project-root/
 ├── README.md
 ├── build.gradle
 ├── settings.gradle
 ├── .gitignore
-│ 
-├── sql.scripts
-│   └── initdb.sql       # Database setup script
-│
-└── src
-     └── main/java/org.example
-     |                ├── modules
-     |                │    ├──  Book.java
-     |                │    ├── Copies.java
-     |                │    ├── Genres.java
-     |                │    ├── Library.java
-     |                │    └── Users.java
-     |                │
-     |                ├── repo
-     |                |     └── BookRepository.java
-     |                └── Demo.java
-     └──test
+├── sql.scripts/
+│   └── initdb.sql
+├── src/
+│   └── main/
+│       └── java/
+│           └── org.example/
+│               ├── modules/
+│               │   ├── Book.java
+│               │   ├── Copies.java
+│               │   ├── Genres.java
+│               │   ├── Library.java
+│               │   └── Users.java
+│               ├── repo/
+│               │   └── BookRepository.java
+│               └── Demo.java
+└── test/
 
 ## Features
 - Manage **multiple libraries**, each storing physical copies of books.
@@ -81,17 +80,18 @@ The project demonstrates full database interaction, console-based UI, and automa
 
 #### Console Menu
 Choose a number!
--- 1 : Available Books --
--- 2 : Genres -- See all genres or add new one --
--- 3 : Books Information --
--- 4 : Register User --
--- 5 : Loan Section -- Borrow or Return books
--- 6 : Loaners List --
--- 7 : Add new Book --
--- 8 : Print Users --
--- 9 : Add Information to new Books --
--- 10 : Libraries
--- 0 : Exit --
+
+1 : Available Books
+2 : Genres           -- See all genres or add new one
+3 : Books Information
+4 : Register User
+5 : Loan Section      -- Borrow or Return books
+6 : Loaners List
+7 : Add New Book
+8 : Print Users
+9 : Add Information to New Books
+10: Libraries
+0 : Exit
 
 ##### Instruction to Test
 - Create Libraries.
