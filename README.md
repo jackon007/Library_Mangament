@@ -1,7 +1,8 @@
 # CLI Library Management System
 
-Java JDBC console application to manage multi-library book loans with PostgreSQL.  
-This system allows users to borrow books, track book copies, and manage multiple libraries. 
+Java JDBC console application to manage multi-library book loans with PostgreSQL.
+Technologies Java, PostgreSQL, JDBC, Gradle, Git.
+This system allows to borrow books, track book copies, and manage multiple libraries. 
 The project demonstrates full database interaction, console-based UI, and automated loan logic.
 
 # Download File Via Repsoitory
