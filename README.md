@@ -20,8 +20,10 @@ The project demonstrates full database interaction, console-based UI, and automa
 - Configure JDBC Connection
   In Demo.java (Line 15)  Uncomment the part and change information with yours !!!
   
-  String url = "jdbc:postgresql://localhost:5432/Library"; -- You Url 
+  String url = "jdbc:postgresql://localhost:5432/Library"; -- You Url
+
   String user = "postgres";
+  
   String password = "your_password"; -- Your postgres Password
   
 - Run the Demo.java
