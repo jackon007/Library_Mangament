@@ -64,19 +64,19 @@ The project demonstrates full database interaction, console-based UI, and automa
 ### ER Diagram
 **Logical workflow of the system**:
 
-Libraries     Genres     Users
-    │           │         │
-    ▼           ▼         ▼
-                  Books
-                    │
-                    ▼
-               Book_Copies
-                    │
-                    ▼
-                   Loan
-                    ▲
-                    │
-                  Users
+          Libraries        Genres        Users
+             │             │             │
+             ▼             ▼             ▼
+                            Books
+                             │
+                             ▼
+                        Book_Copies
+                             │
+                             ▼
+                             Loan
+                             ▲
+                             │
+                            Users
 
 
 #### Console Menu
