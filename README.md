@@ -81,17 +81,17 @@ project-root/
 #### Console Menu
 Choose a number!
 
-1 : Available Books
-2 : Genres           -- See all genres or add new one
-3 : Books Information
-4 : Register User
-5 : Loan Section      -- Borrow or Return books
-6 : Loaners List
-7 : Add New Book
-8 : Print Users
-9 : Add Information to New Books
-10: Libraries
-0 : Exit
+ 1 : Available Books
+ 2 : Genres           -- See all genres or add new one
+ 3 : Books Information
+ 4 : Register User
+ 5 : Loan Section      -- Borrow or Return books
+ 6 : Loaners List
+ 7 : Add New Book
+ 8 : Print Users
+ 9 : Add Information to New Books
+ 10: Libraries
+ 0 : Exit
 
 ##### Instruction to Test
 - Create Libraries.
